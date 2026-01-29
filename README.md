@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dmskmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskmaxabs@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-dmskmaxabs/tags). For example,
+
+```javascript
 import dmskmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskmaxabs@v0.1.0-esm/index.mjs';
 ```
 
@@ -166,7 +171,7 @@ var v = dmskmaxabs.ndarray( 4, x, 2, 1, mask, 2, 1 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
-import dmskmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskmaxabs@v0.1.0-esm/index.mjs';
+import dmskmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskmaxabs@esm/index.mjs';
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'
