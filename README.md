@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dmskmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskmaxabs@deno/mod.js';
+import dmskmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskmaxabs@v0.1.1-deno/mod.js';
 ```
 
 #### dmskmaxabs( N, x, strideX, mask, strideMask )
@@ -161,7 +161,7 @@ var v = dmskmaxabs.ndarray( 4, x, 2, 1, mask, 2, 1 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import dmskmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskmaxabs@deno/mod.js';
+import dmskmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmskmaxabs@v0.1.1-deno/mod.js';
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'
